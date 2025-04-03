@@ -1,5 +1,5 @@
 # Let's say your big data is in a data frame:
-big_data <- read.delim("/Volumes/projects-t3/SerreDLab-3/kko/cibersort_analysis/labeled_NF54_scGam_count_table_cpm.tsv", check.names = FALSE)
+big_data <- read.delim("path_to_raw_sc_count_table", check.names = FALSE)
 
 # Get the column names
 col_names <- colnames(big_data)
