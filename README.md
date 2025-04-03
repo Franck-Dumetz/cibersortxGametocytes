@@ -8,4 +8,4 @@ For convenience, mostly mine, the following matrix and source GEP file were upda
 
 [single-cell matrix](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx-matrix_scRNA2024Gam.txt) is the file ouputed by cibersortx to use for your deconvolution. It is associated with a GEP table to use for batch correction [GEP Table](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx-sourceGEP_scRNA2024Gam.txt)
 
-The count table from FeatureCounts was CPM transformed using EdgeR using [FC2cibersortx.R]()
+The count table from FeatureCounts was CPM transformed using EdgeR using [FC2cibersortx.R](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/FC2cibersortx.R)
