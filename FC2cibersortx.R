@@ -13,7 +13,7 @@ library(edgeR)
 
 # Replace this with your actual file path
 # Example assumes tab-delimited file with annotation columns in the first 6 columns
-count_data <- read.delim("/Users/fdumetz/OneDrive\ -\ University\ of\ Maryland\ School\ of\ Medicine/Experiment/Dimopoulos_Vandana/Pf_Count.txt", row.names = 1, header=TRUE, skip = 1)
+count_data <- read.delim("PATH_TO_count-table", row.names = 1, header=TRUE, skip = 1)
 
 # --- Step 2: Remove annotation columns if needed ---
 
@@ -39,5 +39,5 @@ cpm_counts <- cpm(dge)
 cpm_counts_out <- data.frame(GeneID = rownames(cpm_counts), cpm_counts)
 #log_cpm_counts_out <- data.frame(GeneID = rownames(log_cpm_counts), log_cpm_counts)
 
-write.table(cpm_counts_out, "/Users/fdumetz/OneDrive\ -\ University\ of\ Maryland\ School\ of\ Medicine/Experiment/Dimopoulos_Vandana/Pf_Count_RPM_cibersort.txt", sep = "\t", quote = FALSE, row.names = TRUE, col.names = TRUE)
+write.table(cpm_counts_out, "path/Pf_Count_RPM_cibersort.txt", sep = "\t", quote = FALSE, row.names = TRUE, col.names = TRUE)
 #write.table(log_cpm_counts_out, "log2CPM_transformed_counts.csv", sep = "\t", quote = FALSE)
