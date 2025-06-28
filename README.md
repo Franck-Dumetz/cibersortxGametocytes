@@ -1,4 +1,4 @@
-# cibersortxGametocytes
+# NF54 gametocytes single-cell RNAseq cell deconvolution using cibersortx
 using cibersortx with the dataset of S. K. Dogga et al., Science 384,eadj4088 (2024) "A single-cell atlas of sexual developmentin Plasmodium falciparum"
 
 [GamscRNA2024_subset.tsv](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/GamscRNA2024_subset.tsv) is a subset of a 100 random UMI conrresponding to the 9 different life stages identified in the paper. 
