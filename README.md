@@ -6,6 +6,6 @@ Data coming from pf-ch10x-set4-ch10x-raw.csv downloaded from the Malaria Cell At
 
 For convenience, mostly mine, the following matrix and source GEP file were updated to follow the PlasmoDB geneID naming convention.
 
-[single-cell matrix](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx-matrix_scRNA2024Gam.txt) is the output file from cibersortx to use for your deconvolution. It is associated with a GEP table to use for batch correction [GEP Table](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx_NF54scRNA_Gam2024_sourceGEP.txt)
+[single-cell matrix]([https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx_NF54scRNA_Gam2024.txt] is the output file from cibersortx to use for your deconvolution. It is associated with a GEP table to use for batch correction [GEP Table](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/CIBERSORTx_NF54scRNA_Gam2024_sourceGEP.txt)
 
 The count table from FeatureCounts was CPM transformed using EdgeR using [FC2cibersortx.R](https://github.com/Franck-Dumetz/cibersortxGametocytes/blob/main/FC2cibersortx.R)
