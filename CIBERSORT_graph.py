@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- Load data ---
-df = pd.read_table('/Users/fdumetz/Downloads/CIBERSORTx_Job24_output/CIBERSORTxGEP_Job24_Fractions-Adjusted_short.txt')
+df = pd.read_table('PATH/CIBERSORTxGEP_Job24_Fractions-Adjusted_short.txt')
 
 # Separate sample names and numeric data
 samples = df['Mixture']
